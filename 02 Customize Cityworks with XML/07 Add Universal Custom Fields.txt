@@ -1,0 +1,21 @@
+<controls>
+  <control id="Text1" visible="true"></control>
+  <control id="Text2" visible="true"></control>
+</controls>
+<layout>
+  <panel id="UniversalCustomFieldsPanel" moveBefore="General"></panel>
+</layout>
+------------------------------------------
+<controls>
+  <control id="Text1" visible="true"></control>
+  <control id="Text2" visible="true"></control>
+</controls>
+<layout>
+  <panel id="UniversalCustomFieldsPanel" moveBefore="General"></panel>
+  <label id="label_Text1">
+    <text>First Field:</text>
+  </label>
+  <label id="label_Text2">
+    <text>Second Field:</text>
+  </label>
+</layout>

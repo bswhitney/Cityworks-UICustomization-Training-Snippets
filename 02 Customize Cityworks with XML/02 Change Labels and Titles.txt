@@ -1,0 +1,19 @@
+<layout>
+  <label id="label_cboWODesc">
+    <text>Type:</text>
+  </label>
+</layout>
+-----------------------------------
+<layout>
+  <label id="label_cboWorkOrderId">
+    <text>ID:</text>
+  </label>
+</layout>
+-----------------------------------
+<layout>
+  <panel id="General">
+    <panelTitle>
+      <text>General Information</text>
+    </panelTitle>
+  </panel>
+</layout>

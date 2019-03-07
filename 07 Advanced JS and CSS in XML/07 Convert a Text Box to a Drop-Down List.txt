@@ -1,0 +1,34 @@
+$.fn.convertToDropdown = function (options) {
+    return this.each(function () {
+        var element = $(this);
+        var transform = function (element) {
+            var id = element.attr("id");
+            var name = element.attr("name");
+            var value = element.val();
+            if (id && name) {
+                var html = "<select id='" + id + "' name='" + name + "' class='normal'>";
+                for (var i = 0; i < options.length; i++) {
+                    if (options[i] === value) {
+                        html += "<option value='" + options[i] + "' selected='true'>" + options[i] + "</option>";
+                    } else {
+                        html += "<option value='" + options[i] + "'>" + options[i] + "</option>";
+                    }
+                }
+                html += "</select>";
+                console.log(html);
+                element.replaceWith(html);
+            }
+        };
+        transform(element);
+        if (typeof Sys != 'undefined') {
+            var prm = Sys.Webforms.PageRequestManager.getInstance();
+            prm.add_endRequest(function () {
+                transform(element);
+            });
+        }
+    });
+};
+
+$(function () {
+    $("#ctl00_Main_txtProbCity").convertToDropdown(["Sandy", "Draper", "Herriman"]);
+});

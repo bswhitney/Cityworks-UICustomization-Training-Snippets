@@ -1,0 +1,10 @@
+$(function () {
+    $(".widget").each(function () {
+        var pParent = $(this);
+        var newImage = $(this).children('h2').append('<div class="toggle tools"><img style="" type="image" src="..\\Assets\\img\\layout\\rollDown.png" /></div>'); newImage.find("img").click(function () {
+            if (pParent.children('div').is(':visible')) {newImage.find('img').prop("src", "..\\Assets\\img\\layout\\rollUp.png");}
+            else {newImage.find('img').prop("src", "..\\Assets\\img\\layout\\rollDown.png");}
+            pParent.children('div').toggle();
+        });
+    });
+});

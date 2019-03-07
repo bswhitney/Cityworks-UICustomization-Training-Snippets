@@ -1,0 +1,3 @@
+<controls>
+  <button id="btnGetFromMap" toolTip="USE THIS TO ATTACH ASSETS CURRENTLY SELECTED ON THE MAP"></button>
+</controls>

@@ -1,0 +1,4 @@
+.unflaggedRequired {
+    color: green;
+    background-color: lime;
+}

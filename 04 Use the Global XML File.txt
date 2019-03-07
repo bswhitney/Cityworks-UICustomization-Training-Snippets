@@ -1,0 +1,18 @@
+<messages>
+
+  <!--In user menu, change "User Settings" to My Settings-->
+  <message id="UserSettings">
+    <value>My Settings</value>
+  </message>
+
+  <!--Change popup error message-->
+  <message id="PleaseSelectAsset">
+    <value>Por favor selecione um ativo!</value>
+  </message>
+
+  <!--Change search bar placeholder-->
+  <message id="SearchPlaceholder">
+    <value>Search Work Activities...</value>
+  </message>
+
+</messages>

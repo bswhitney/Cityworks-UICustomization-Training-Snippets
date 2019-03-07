@@ -1,0 +1,7 @@
+body {
+    background-color: #005FA9;
+    background-image: url(https://login.cityworksonline.com/Content/img/login.png?v=4.3.10);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}

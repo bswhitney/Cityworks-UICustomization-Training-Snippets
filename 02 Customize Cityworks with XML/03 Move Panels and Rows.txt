@@ -1,0 +1,29 @@
+<layout>
+  <panel id="Assets" moveAfter="General"></panel>
+</layout>
+----------------------------------
+<layout>
+  <panel id="Assets" moveBefore="General"></panel>
+</layout>
+----------------------------------
+<layout>
+  <column id="col1">
+    <panel id="Assets"/>
+    <panel id="Map"/>
+    <panel id="AttachmentsPanel"/>
+    <panel id="WorkActivities"/>
+    <panel id="MapLayers"/>
+  </column>
+  <column id="col2">
+    <panel id="Details"/>
+    <panel id="WOCycle"/>
+    <panel id="SavedTasks"/>
+    <panel id="General"/>
+  </column>
+</layout>
+----------------------------------
+<layout>
+  <panel id="Assets">
+    <row index="5" moveTo="2"></row>
+  </panel>
+</layout>

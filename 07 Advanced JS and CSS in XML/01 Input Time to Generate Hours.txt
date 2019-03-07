@@ -1,0 +1,3 @@
+<script id="enableAutoCalcCustomJS">
+  $(function () {enableAutoCalc = true;});
+</script>

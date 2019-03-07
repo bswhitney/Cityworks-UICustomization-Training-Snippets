@@ -1,0 +1,4 @@
+1. Go to XML Folder: "C:\inetpub\wwwroot\cityworks\WebSite\Xml"
+2. Find "SearchDisplayFieldsBase.xml" and make a copy into the "Default - Copy" Folder.
+3. Remove "Base" from duplicate file's name.
+4. Make edits as needed.

@@ -1,0 +1,38 @@
+<layout>
+  <panel id="BrandonsPanel" moveBefore="General" width="482px"></panel>
+</layout>
+-----------------------------------------
+<layout>
+  <panel id="BrandonsPanel" moveBefore="General" width="482px">
+    <panelTitle>
+      <text>Brandon's Panel</text>
+    </panelTitle>
+  </panel>
+</layout>
+-----------------------------------------
+<layout>
+    <panel id="BrandonsPanel" moveBefore="General" width="482px">
+      <panelTitle>
+        <text>Brandon's Panel</text>
+      </panelTitle>
+      <row>
+        <label id="label_cboWODesc"></label>
+      </row>
+    </panel>
+  </layout>
+-----------------------------------------
+<layout>
+    <panel id="BrandonsPanel" moveBefore="General" width="482px">
+      <panelTitle>
+        <text>Brandon's Panel</text>
+      </panelTitle>
+      <row>
+        <label id="label_cboWODesc"></label>
+        <controlContainer>
+          <linkedControls>
+            <control id="cboWODesc"></control>
+          </linkedControls>
+        </controlContainer>
+      </row>
+    </panel>
+  </layout>

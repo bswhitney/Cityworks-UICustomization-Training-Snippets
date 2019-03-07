@@ -1,0 +1,11 @@
+<layout>
+  <panel id="General">
+    <panelTitle>
+      <text>
+        <![CDATA[
+          Work Order<a href="http://training.cityworks.com/cityworks/Help/AMS/#Work-Order/Work-Order.htm" target="blank"; style="text-decoration: none; color: white;"><img style="height: 15px; float: right; margin-top: 3px;" src="../assets/icons/info-16.png"></img></a>
+        ]]>
+      </text>
+    </panelTitle>
+  </panel>
+</layout>

@@ -1,0 +1,19 @@
+<layout>
+  <panel id="WOCycle" visible="false"></panel>
+</layout>
+----------------------------------------------
+<controls>
+  <control id="txtTileNo" visible="false"></control>
+</controls>
+----------------------------------------------
+<layout>
+  <panel id="AttachmentsPanel" collapse="true"></panel>
+</layout>
+----------------------------------------------
+<controls>
+  <control id="calActualFinishDate" required="false"></control>
+</controls>
+----------------------------------------------
+<controls>
+  <control id="cboWorkCompletedBy" required="true"></control>
+</controls>

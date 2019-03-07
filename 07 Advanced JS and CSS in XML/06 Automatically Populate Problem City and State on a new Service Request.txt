@@ -1,0 +1,13 @@
+$(function () {
+    var element = $("#ctl00_Main_txtProbState");
+    if (element.val() === "") {
+        element.val("AZ");
+    }
+});
+------------------------------------------------
+$(function () {
+    var element = $("#ctl00_Main_txtProbCity");
+    if (element.val() === "") {
+        element.val("Sierra Vista");
+    }
+});

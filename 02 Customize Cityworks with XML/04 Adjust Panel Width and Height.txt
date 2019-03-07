@@ -1,0 +1,7 @@
+<layout>
+  <panel id="Assets" width="500px"></panel>
+</layout>
+------------------------------------------
+<layout>
+  <panel id="Assets" height="500px"></panel>
+</layout>

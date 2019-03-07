@@ -1,0 +1,28 @@
+<layout>
+  <styleSheet id="CustomStyle" source="../XML/Default - Copy/WOGeneralCustom.css"></styleSheet>
+  <script id="CustomScript" source="../XML/Default - Copy/WOGeneralCustom.js"></script>
+  <panel id="General">
+    <panelTitle>
+      <text>
+        <![CDATA[
+        <css id="general">Work Order</css>]]>
+      </text>
+    </panelTitle>
+  </panel>
+</layout>
+
+#general {
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 900;
+    color: fuchsia;
+}
+-------------------------------------------
+.layout .container .row {
+    font-family: 'Courier New';
+    font-size: 18px;    
+    font-style: italic;
+    font-weight: 900;
+    color: fuchsia;
+}
