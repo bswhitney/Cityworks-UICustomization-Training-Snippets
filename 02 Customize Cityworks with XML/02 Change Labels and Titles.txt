@@ -1,19 +1,16 @@
-<layout>
-  <label id="label_cboWODesc">
-    <text>Type:</text>
-  </label>
-</layout>
+<!-- Changing the label for cboWODesc from "Description:" to "Type:". Put between layout tags. -->
+<label id="label_cboWODesc">
+  <text>Type:</text>
+</label>
 -----------------------------------
-<layout>
-  <label id="label_cboWorkOrderId">
-    <text>ID:</text>
-  </label>
-</layout>
+<!-- Changing the label for cboWorkOrderId from "Number:" to "ID:". Put between layout tags. -->
+<label id="label_cboWorkOrderId">
+  <text>ID:</text>
+</label>
 -----------------------------------
-<layout>
-  <panel id="General">
-    <panelTitle>
-      <text>General Information</text>
-    </panelTitle>
-  </panel>
-</layout>
+<!-- Changing the General panel title from "Work Order" to "General Work Order Information". Put between layout tags. -->
+<panel id="General">
+  <panelTitle>
+    <text>General Work Order Information</text>
+  </panelTitle>
+</panel>

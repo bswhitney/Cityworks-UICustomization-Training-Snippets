@@ -1,3 +1,2 @@
-<layout>
-  <tabset id="AdditionalDetails" initialTab="CallerInfo"/>
-</layout>
+<!-- Change which tab of the additional details panel opens by default. Put between layout tags. -->
+<tabset id="AdditionalDetails" initialTab="CallerInfo"/>

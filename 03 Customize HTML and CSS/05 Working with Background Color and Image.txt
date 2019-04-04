@@ -1,3 +1,4 @@
+/* CSS to change the background of the page to blue with the Cityworks logo in the bottom right corner. */
 body {
     background-color: #005FA9;
     background-image: url(https://login.cityworksonline.com/Content/img/login.png?v=4.3.10);

@@ -1,3 +1,4 @@
 <script id="enableAutoCalcCustomJS">
+  // Anonymous function to enable the auto calculate function, which is off by default.
   $(function () {enableAutoCalc = true;});
 </script>

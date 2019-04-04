@@ -1,21 +1,16 @@
-<controls>
-  <control id="Text1" visible="true"></control>
-  <control id="Text2" visible="true"></control>
-</controls>
-<layout>
-  <panel id="UniversalCustomFieldsPanel" moveBefore="General"></panel>
-</layout>
+<!-- Enabling the universal custom fields by making them visible. Put between controls tags. -->
+<control id="Text1" visible="true"></control>
+<control id="Text2" visible="true"></control>
+<!-- Universal custom fields are fields that are included in many data types (tables) 
+within Cityworks. They are unused by the software by default, but when enabled and used,
+provide an excellent means of tracking custom data within your organization. -->
 ------------------------------------------
-<controls>
-  <control id="Text1" visible="true"></control>
-  <control id="Text2" visible="true"></control>
-</controls>
-<layout>
-  <panel id="UniversalCustomFieldsPanel" moveBefore="General"></panel>
+<!-- Editing the labels for the universal custom fields. Put between layout tags. -->
+<panel id="UniversalCustomFieldsPanel" moveBefore="General">
   <label id="label_Text1">
     <text>First Field:</text>
   </label>
   <label id="label_Text2">
     <text>Second Field:</text>
   </label>
-</layout>
+</panel>

@@ -1,7 +1,13 @@
+// Call an anonymous function.
 $(function () {
+    // Select each object on the page with the class of widget. Execute a for-each loop.
     $(".widget").each(function () {
+        // Save the widget to a variable.
         var pParent = $(this);
-        var newImage = $(this).children('h2').append('<div class="toggle tools"><img style="" type="image" src="..\\Assets\\img\\layout\\rollDown.png" /></div>'); newImage.find("img").click(function () {
+        // Add a new image to the widget title bar.
+        var newImage = $(this).children('h2').append('<div class="toggle tools"><img style="" type="image" src="..\\Assets\\img\\layout\\rollDown.png" /></div>');
+        // Make the image toggleable. When clicked, it will collapse.
+        newImage.find("img").click(function () {
             if (pParent.children('div').is(':visible')) {newImage.find('img').prop("src", "..\\Assets\\img\\layout\\rollUp.png");}
             else {newImage.find('img').prop("src", "..\\Assets\\img\\layout\\rollDown.png");}
             pParent.children('div').toggle();

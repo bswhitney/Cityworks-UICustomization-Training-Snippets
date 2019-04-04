@@ -1,18 +1,14 @@
-<messages>
-
-  <!--In user menu, change "User Settings" to My Settings-->
-  <message id="UserSettings">
-    <value>My Settings</value>
-  </message>
-
-  <!--Change popup error message-->
-  <message id="PleaseSelectAsset">
-    <value>Por favor selecione um ativo!</value>
-  </message>
-
-  <!--Change search bar placeholder-->
-  <message id="SearchPlaceholder">
-    <value>Search Work Activities...</value>
-  </message>
-
-</messages>
+<!-- Change "User Settings" to "My Settings" in the user menu. Put between messages tags. -->
+<message id="UserSettings">
+  <value>My Settings</value>
+</message>
+-------------------------------------------
+<!-- Change the text for the select an asset message. Put between messages tags. -->
+<message id="PleaseSelectAsset">
+  <value>Por favor selecione um ativo!</value>
+</message>
+-------------------------------------------
+<!-- Change the text of the search bar place holder. -->
+<message id="SearchPlaceholder">
+  <value>Search Work Activities...</value>
+</message>

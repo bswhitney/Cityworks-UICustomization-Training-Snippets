@@ -1,29 +1,30 @@
-<layout>
-  <panel id="Assets" moveAfter="General"></panel>
-</layout>
+<!-- Moving the assets panel after the general panel. Put between layout tags. -->
+<panel id="Assets" moveAfter="General"></panel>
 ----------------------------------
-<layout>
-  <panel id="Assets" moveBefore="General"></panel>
-</layout>
+<!-- Moving the assets panel before the general panel. Put between layout tags. -->
+<panel id="Assets" moveBefore="General"></panel>
 ----------------------------------
-<layout>
-  <column id="col1">
-    <panel id="Assets"/>
-    <panel id="Map"/>
-    <panel id="AttachmentsPanel"/>
-    <panel id="WorkActivities"/>
-    <panel id="MapLayers"/>
-  </column>
-  <column id="col2">
-    <panel id="Details"/>
-    <panel id="WOCycle"/>
-    <panel id="SavedTasks"/>
-    <panel id="General"/>
-  </column>
-</layout>
+<!-- Moving the panels using columns. Put between layout tags. -->
+<column id="col1">
+  <panel id="Assets"/>
+  <panel id="Map"/>
+  <panel id="AttachmentsPanel"/>
+  <panel id="WorkActivities"/>
+  <panel id="MapLayers"/>
+</column>
+<column id="col2">
+  <panel id="Details"/>
+  <panel id="WOCycle"/>
+  <panel id="SavedTasks"/>
+  <panel id="General"/>
+</column>
+<!-- Note that when you are using columns to move panels around, if a panel remains
+in its original column, any new panels will move below it, regardless of the order
+they are in. In order to ensure ordering the way you want, if a panel is to remain
+in its original column, use the "moveBefore" or "moveAfter" attributes to force them
+into their proper locations. -->
 ----------------------------------
-<layout>
-  <panel id="Assets">
-    <row index="5" moveTo="2"></row>
-  </panel>
-</layout>
+<! -- Inserting row 5 (buttons) of the assets panel into the second row position. Put between layout tags. -->
+<panel id="Assets">
+  <row index="5" moveTo="2"></row>
+</panel>

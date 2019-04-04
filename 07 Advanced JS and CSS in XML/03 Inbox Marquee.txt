@@ -1,13 +1,22 @@
-<layout>
-  <styleSheet id="customStyle2" source="../XML/Default - Copy/CustomInbox.css" />
-  <script id="customInboxJs" source="../XML/Default - Copy/CustomInbox.js" />
-  <label id="CustomCode" moveBefore="adminColumn" type="plain">
-    <text>
-      <![CDATA[<marquee class="banner" behavior="scroll" direction="left"><b>Sample Site for Training Group Usage</b><br>This Cityworks 15.3 site is exclusively for the use of the Training Group to show XML functionality for the Customizing Cityworks Training Courses. Please contact Brandon Whitney, bwhitney@cityworks.com, with any questions.<a href="https://www.mycityworks.com/CityworksCampus" target="_blank">More »</a></marquee>]]>
-    </text>
-  </label>
-</layout>
+
+<!-- Reference JS and CSS, add a marquee using the CDATA tags. Put between the layout tags. --> 
+<styleSheet id="customStyle2" source="../XML/Default - Copy/CustomInbox.css" />
+<script id="customInboxJs" source="../XML/Default - Copy/CustomInbox.js" />
+<label id="CustomCode" moveBefore="adminColumn" type="plain">
+  <text>
+    <![CDATA[
+      <marquee class="banner" behavior="scroll" direction="left">
+        <b>Sample Site for Training Group Usage</b><br>
+        This Cityworks 15.4 site is exclusively for the use of the Training Group to show 
+        XML functionality for the Customizing Cityworks Training Courses. Please contact 
+        Brandon Whitney, bwhitney@cityworks.com, with any questions.
+        <a href="https://mycityworks.force.com/s/training/" target="_blank">More ï¿½</a>
+      </marquee>
+    ]]>
+  </text>
+</label>
 ---------------------------------------------------------------------------------
+/* CSS to customize the inbox marquee. */
 .banner {
     background: #d8d8dc;
     color: #4c4c4c;

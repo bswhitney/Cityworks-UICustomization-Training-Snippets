@@ -1,0 +1,5 @@
+<!-- This is the element used to reference an external CSS file. Put between layout tags. -->
+<styleSheet id="CustomStyle" source="../XML/Default - Copy/WOGeneralCustom.css"></styleSheet>
+
+<!-- This is the element used to reference an external JS file. Put between layout tags. -->
+<script id="CustomScript" source="../XML/Default - Copy/WOGeneralCustom.js"></script>

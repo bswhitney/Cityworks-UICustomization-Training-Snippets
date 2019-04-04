@@ -1,19 +1,14 @@
-<layout>
-  <panel id="WOCycle" visible="false"></panel>
-</layout>
+<!-- Making the work order cycle tab invisible. Put between layout tags. -->
+<panel id="WOCycle" visible="false"></panel>
 ----------------------------------------------
-<controls>
-  <control id="txtTileNo" visible="false"></control>
-</controls>
+<!-- Making the tile number text box (control) invisible. Put between controls tags. -->
+<control id="txtTileNo" visible="false"></control>
 ----------------------------------------------
-<layout>
-  <panel id="AttachmentsPanel" collapse="true"></panel>
-</layout>
+<!-- Setting the attachments panel to be collapsed by default. Put between layout tags. -->
+<panel id="AttachmentsPanel" collapse="true"></panel>
 ----------------------------------------------
-<controls>
-  <control id="calActualFinishDate" required="false"></control>
-</controls>
+<!-- Making actual finish date not required. Put between controls tags. -->
+<control id="calActualFinishDate" required="false"></control>
 ----------------------------------------------
-<controls>
-  <control id="cboWorkCompletedBy" required="true"></control>
-</controls>
+<!-- Making work completed by required. Put between controls tags. -->
+<control id="cboWorkCompletedBy" required="true"></control>

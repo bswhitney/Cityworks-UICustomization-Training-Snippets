@@ -1,12 +1,11 @@
-<controls>
-  <button id="EquipmentChangeOut" visible="false"></button>
-</controls>
-<layout>
-  <panel id="Body">
-    <row moveBefore="Contractors" cssClass="item">
-      <html cssClass="navbutton" href="BulkImport.aspx" tag="a">
-        <text id="BulkImportText">Bulk Import</text>
-      </html>
-    </row>
-  </panel>
-</layout>
+<!-- Insert a designer home link to bulk import before the contractor link. Put between layout tags. -->
+<panel id="Body">
+  <row moveBefore="Contractors" cssClass="item">
+    <html cssClass="navbutton" href="BulkImport.aspx" tag="a">
+      <text id="BulkImportText">Bulk Import</text>
+    </html>
+  </row>
+</panel>
+-------------------------------------------
+<!-- Remove the equipment change out link from the designer home page. Put between controls tags. -->
+<button id="EquipmentChangeOut" visible="false"></button>

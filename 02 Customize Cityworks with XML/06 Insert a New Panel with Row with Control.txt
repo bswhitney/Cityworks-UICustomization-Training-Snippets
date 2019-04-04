@@ -1,38 +1,36 @@
-<layout>
-  <panel id="BrandonsPanel" moveBefore="General" width="482px"></panel>
-</layout>
+<!-- Creating a new panel. Put between layout tags. -->
+<panel id="NewPanel" moveBefore="General" width="482px"></panel>
+<!-- Note that no new panel appears. A panel must have a row with a control in it to display. -->
 -----------------------------------------
-<layout>
-  <panel id="BrandonsPanel" moveBefore="General" width="482px">
-    <panelTitle>
-      <text>Brandon's Panel</text>
-    </panelTitle>
-  </panel>
-</layout>
+<!-- Adding a title to the panel. Put between layout tags. -->
+<panel id="NewPanel" moveBefore="General" width="482px">
+  <panelTitle>
+    <text>New Panel</text>
+  </panelTitle>
+</panel>
+<!-- Note that the panel title may or may not appear. -->
 -----------------------------------------
-<layout>
-    <panel id="BrandonsPanel" moveBefore="General" width="482px">
-      <panelTitle>
-        <text>Brandon's Panel</text>
-      </panelTitle>
-      <row>
-        <label id="label_cboWODesc"></label>
-      </row>
-    </panel>
-  </layout>
+<!-- Adding a row with a control to it. Put between layout tags.  -->
+<panel id="NewPanel" moveBefore="General" width="482px">
+  <panelTitle>
+    <text>New Panel</text>
+  </panelTitle>
+  <row>
+    <label id="label_cboWODesc"></label>
+  </row>
+</panel>
 -----------------------------------------
-<layout>
-    <panel id="BrandonsPanel" moveBefore="General" width="482px">
-      <panelTitle>
-        <text>Brandon's Panel</text>
-      </panelTitle>
-      <row>
-        <label id="label_cboWODesc"></label>
-        <controlContainer>
-          <linkedControls>
-            <control id="cboWODesc"></control>
-          </linkedControls>
-        </controlContainer>
-      </row>
-    </panel>
-  </layout>
+<!-- Adding a new panel with a row that contains both a control and its label. Put between layout tags. -->
+<panel id="NewPanel" moveBefore="General" width="482px">
+  <panelTitle>
+    <text>New Panel</text>
+  </panelTitle>
+  <row>
+    <label id="label_cboWODesc"></label>
+    <controlContainer>
+      <linkedControls>
+        <control id="cboWODesc"></control>
+      </linkedControls>
+    </controlContainer>
+  </row>
+</panel>
