@@ -1,0 +1,11 @@
+Question: Is there a way to make a long data fields into shorter fields so you can fit another control onto the same row?
+<!-- Code to take the cboWODesc field and WOGeneral fields shrink it down using classes pre-built into Cityworks (found using the Developer Tools). -->
+<layout>
+    <script>
+        $(function () {
+            document.getElementById('ctl00_Main_cboWODesc').classList.remove('long');
+            document.getElementById('ctl00_Main_cboWODesc').classList.add('normal');
+        })
+    </script>
+</layout>
+--------------------------------------------------------------------------------------------------------------------------------------------------------
