@@ -1,11 +1,12 @@
 Question: Is there a way to make a long data fields into shorter fields so you can fit another control onto the same row?
-<!-- Code to take the cboWODesc field and WOGeneral fields shrink it down using classes pre-built into Cityworks (found using the Developer Tools). -->
-<layout>
-    <script>
-        $(function () {
-            document.getElementById('ctl00_Main_cboWODesc').classList.remove('long');
-            document.getElementById('ctl00_Main_cboWODesc').classList.add('normal');
-        })
-    </script>
-</layout>
+// JavaScript to take the cboWODesc field on the WOGeneral page and shrink it down using classes pre-built into Cityworks (found using the Developer Tools).
+$(function () {
+    document.getElementById('ctl00_Main_cboWODesc').classList.remove('long');
+    document.getElementById('ctl00_Main_cboWODesc').classList.add('normal');
+})
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Question: When I flag a control as required, does it actually force the user to fill that control with a value before closing it out?
+Yes. I made two additional controls required, and it forced me to fill those in.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------
