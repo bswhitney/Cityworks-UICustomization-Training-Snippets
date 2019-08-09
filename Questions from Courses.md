@@ -1,7 +1,7 @@
 ## Questions Pending Research
 **Question:** Is there a way to move the attachments section of the inspection details tab to the observations tab?
 
-**Question:** Is there a way to make fields in the UI read only?
+
 
 ## Answered Questions
 **Question:** Is there a way to make a long data fields into shorter fields so you can fit another control onto the same row?
@@ -23,3 +23,13 @@ document.getElementById('ctl00_Main_cboWODesc').classList.add('normal');
 **Question:** Is there currently a way to assign XML customization folders to a group?
 
 **Answer:** As of Cityworks 15.4, there is not. It is available at the domain and employee level.
+
+---
+**Question:** Is there a way to make fields in the UI readonly?
+
+**Answer:** Yes. I was able to disable to Submit To field on a Work Order page using the following code:
+```JavaScript
+$(function () {
+    document.getElementById('ctl00_Main_cboSubmitTo').setAttribute('disabled', true);
+});
+```
