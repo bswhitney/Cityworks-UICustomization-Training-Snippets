@@ -1,5 +1,6 @@
 ## Questions Pending Research
 **Question:** Is there a way to move the attachments section of the inspection details tab to the observations tab?
+
 **Question:** Is there a way to make fields in the UI read only?
 
 ## Answered Questions
