@@ -2,7 +2,6 @@
 **Question:** Is there a way to move the attachments section of the inspection details tab to the observations tab?
 
 
-
 ## Answered Questions
 **Question:** Is there a way to make a long data fields into shorter fields so you can fit another control onto the same row?
 
@@ -32,4 +31,28 @@ document.getElementById('ctl00_Main_cboWODesc').classList.add('normal');
 $(function () {
     document.getElementById('ctl00_Main_cboSubmitTo').setAttribute('disabled', true);
 });
+```
+
+---
+**Question:** Is there a way to move the attachments section of the inspection details tab to the observations tab?
+
+**Answer:** After playing with it for a few minutes, and using the *GenInspectionEditBase.xml* file, I was able to get it to work. The following code is in a customization file called *GenInspectionEdit.xml* between the layout tags:
+```xml
+<tabset id="InspectionTabset">
+  <tab id="InspectionTab">
+    <title id="Attachments">
+      <text>Attachments</text>
+      <linkedControls>
+        <control id="grdAttachments" />
+      </linkedControls>
+    </title>
+    <row>
+      <controlContainer type="plain">
+        <linkedControls>
+          <control id="grdAttachments" />
+        </linkedControls>
+      </controlContainer>
+    </row>
+  </tab>
+</tabset>
 ```
