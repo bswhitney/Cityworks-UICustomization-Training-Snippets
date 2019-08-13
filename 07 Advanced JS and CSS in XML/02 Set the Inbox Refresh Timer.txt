@@ -1,4 +1,0 @@
-<script id="enableAutoCalcCustomJS">
-  // Anonymous function to refresh the inbox every 30000 milliseconds (30 seconds).
-  $(function() { setTimeout(function() {location.reload(); }, 30000 )});
-</script>
