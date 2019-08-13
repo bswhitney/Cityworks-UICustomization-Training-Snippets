@@ -1,2 +1,0 @@
-<!-- Changing the tooltip for the get assets from map button. Put between controls tags. -->
-<button id="btnGetFromMap" toolTip="USE THIS TO ATTACH ASSETS CURRENTLY SELECTED ON THE MAP"></button>

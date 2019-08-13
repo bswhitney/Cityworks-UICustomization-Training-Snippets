@@ -1,5 +1,0 @@
-<!-- Adjusting the width of the assets panel. Put between layout tags. Default is 482px. -->
-<panel id="Assets" width="500px"></panel>
-------------------------------------------
-<!-- Adjusting the height og the assets panel. Put between layout tags. -->
-<panel id="Assets" height="500px"></panel>

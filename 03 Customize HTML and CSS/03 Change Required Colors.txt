@@ -1,5 +1,0 @@
-/* CSS to change the appearance of the required control highlighting */
-.unflaggedRequired {
-    color: green;
-    background-color: lime;
-}
