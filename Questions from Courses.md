@@ -60,3 +60,19 @@ $(function () {
   </tab>
 </tabset>
 ```
+---
+**Question:*** Can you change the width of the columns on a search results page?
+
+**Answer:** Using the developers tools, I found that each of the columns was given a width. This width seems to be based on the number of columns showing—the width of the columns adjust to fit the size of the table. Using the console in the developer tools, I changed the width of the columns using the following script:
+
+```JavaScript
+$("col").css("width", "100px");
+```
+Note that this did not actually set the width of the columns to 100 pixels. When run, this simply evenly spaced the columns, making it a little easier to look at. This could be incorporated in a JavaScript file as follows:
+
+```JavaScript
+$(function () {
+    $("col").css("width", "100px");
+});
+```
+If a means of selecting columns by their data type, field name, or other attribute could be found, it might be possible to further manipulate column width on a case-by-case basis.
