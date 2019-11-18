@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<webLayout xmlns="http://www.azteca.com/cityworks/layout/webLayout">
+  <!-- USE THIS FILE AS A TEMPLATE TO OVERRIDE BASE XML FILES. VIEW MYCITYWORKS.COM OR CONTACT SUPPORT FOR MORE INFORMATION. -->
+  <controls>
+
+    <control id="txtMapPage" visible="false"/>
+    <control id="txtTileNo" visible="false"/>
+
+  </controls>
+  <layout>
+
+    <panel id="Map">
+      <row index="4">
+        <label id="label_cboDistrict"/>
+        <controlContainer>
+          <linkedControls>
+            <control id="cboDistrict"/>
+          </linkedControls>
+        </controlContainer>
+      </row>
+      <row>
+        <html cssClass="formButton" tag="button" onclick="alert('this seems to work!')">
+          <text id="newButton">New Button</text>
+        </html>
+      </row>
+    </panel>
+
+  </layout>
+  <messages>
+  </messages>
+</webLayout>

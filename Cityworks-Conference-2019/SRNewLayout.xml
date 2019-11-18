@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<webLayout xmlns="http://www.azteca.com/cityworks/layout/webLayout">
+  <!-- USE THIS FILE AS A TEMPLATE TO OVERRIDE BASE XML FILES. VIEW MYCITYWORKS.COM OR CONTACT SUPPORT FOR MORE INFORMATION. -->
+  <controls>
+  </controls>
+  <layout>
+
+    <script source="../XML/CWConf2019/Test.js"></script>
+
+  </layout>
+  <messages>
+  </messages>
+</webLayout>
