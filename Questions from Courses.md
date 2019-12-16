@@ -88,3 +88,35 @@ $(".in-answers-edit").hide()
 ```
 
 This simply selects all pencil icons using the class mentioned above, and hides them. In order to hide specific observations, you would have to find some way of querying out by the observation question.
+
+---
+**Question:** Is there a way to reorder columns in a table? For example, if I wanted to move the STATUS column in a work order related tasks table?
+
+**Answer:** The following jQuery worked well for me. There are some things to note, however:
+ * This does not change the order of the fields in the database—this is all done on the front end.
+ * Even if columns are hidden, their indexes must be accounted for. Out of the box, SeqID is the first visible column, but it is actually the third column, and so has an index of 2.
+ * The selector for the grid may depend on your installation. You should find it using the developer tools in your browser before using this script.
+
+ ```JavaScript
+// Variables holding column indexes (0, 1, 2, ...) for from column, new column.
+let from = 5;
+let to = 4;
+// Variable holding the grid in question (found using developers tools).
+let grid = '#ctl00_Main_ctl322_ctl00';
+
+$(function () {
+    // Move column header.
+    let hText = $(`${grid}_Header thead tr`).find('th').eq(from).text();
+    $(`${grid}_Header thead tr`).find('th').eq(from).remove();
+    $(`${grid}_Header thead tr`).find('th').eq(to).before(`<th>${hText}</th>`);
+    // Move column contents.
+    $(`${grid} tr`).each(function() {
+        let status = $(this).find('td').eq(from).text();
+        $(this).find('td').eq(from).remove();
+        $(this).find('td').eq(to).before(`<td>${status}</td>`);
+    });
+});
+ ```
+
+To use this, you simply need to replace the values for `from`, `to`, and `grid`.
+
