@@ -1,10 +1,6 @@
 ## Questions Pending Research
-* I have four short observations in an inspection (25%, 50%, 75%, 100%), and I want them to be in a single line. How do I achieve this?
-* Is there a way to change the order that the apps are presented on AppSwitcher.aspx?
-* Is there a way to differentiate between domains when making UI customizations? In other words, can I have a set of customizations for one domain, and a different set of customizations for another domain?
 * When flagging a field as required, is there a way to change the formatting of the field rather than just the label?
 * Is there a way to set map layers to selectable in the same method as section 6 of the UI manual?
-* Can you change the order of the columns on a search results page?
 * Can you change the width of the columns on a search results page?
 
 ## Answered Questions
