@@ -107,12 +107,12 @@ $(function () {
     $(`${grid}_Header thead tr`).find('th').eq(to).before(`<th>${hText}</th>`);
     // Move column contents.
     $(`${grid} tr`).each(function() {
-        let status = $(this).find('td').eq(from).text();
+        let columnTitle = $(this).find('td').eq(from).text();
         $(this).find('td').eq(from).remove();
-        $(this).find('td').eq(to).before(`<td>${status}</td>`);
+        $(this).find('td').eq(to).before(`<td>${columnTitle}</td>`);
     });
 });
  ```
 
-To use this, you simply need to replace the values for `from`, `to`, and `grid`.
+To use this, you simply need to replace the values for `from`, `to`, and `grid`. A further improvement would be to turn the script into a callable function, so you could reorder columns as needed.
 
