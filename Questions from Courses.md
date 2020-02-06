@@ -2,6 +2,8 @@
 * When flagging a field as required, is there a way to change the formatting of the field rather than just the label?
 * Is there a way to set map layers to selectable in the same method as section 6 of the UI manual?
 * Can you change the width of the columns on a search results page?
+* What would be the best way to modify the buttons for Office and Tablet on the login screen? Specifically the background color of the buttons (15.4) J.P., 2/6/20
+* Is there a way to hide certain columns in a table? For example, on a work order page, is there a way to hide AssetID and AssetUID from the associated assets table?
 
 ## Answered Questions
 **Question:** Is there a way to make a long data fields into shorter fields so you can fit another control onto the same row?
