@@ -12,3 +12,6 @@ These code snippets are up to date with **Cityworks 15.4**. Note that snippets m
 
 ## Disclaimer
 Azteca Systems, its products, and its employees are not responsible for your implementation of this code. This code is to simply illustrate how the Cityworks UI can be customized with rather than provide ready-built code for your production environment.
+
+## Note on JavaScript Injection content in this Course
+As of the 15.5 version of the training, the JavaScript injection section of the course has been removed to supply valuable, secure content to trainees. If additional functionality is needed, talk with your CSM or partner contact to determine the feasibility of using Respond, our plugin version of the software, or developing a proprietary plugin with needed functionality.
