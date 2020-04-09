@@ -4,6 +4,9 @@
 * Can you change the width of the columns on a search results page?
 * What would be the best way to modify the buttons for Office and Tablet on the login screen? Specifically the background color of the buttons (15.4) J.P. CenARWat, 2/6/20
 * Is there a way to hide certain columns in a table? For example, on a work order page, is there a way to hide AssetID and AssetUID from the associated assets table? E.B. MilwCty, 2/6/20
+* Can Cityworks be changed to check for required fields on save, rather than just on close? T.H, PascoCo, 4/9/20
+* Would you use CSS to change the blue Cityworks header to red (for example working in a dev environment rather than in production)?  T.H, PascoCo, 4/9/20
+* Can you change the search icon to be an actual button? T.H, PascoCo, 4/9/20
 
 ## Answered Questions
 **Question:** Is there a way to make a long data fields into shorter fields so you can fit another control onto the same row?
