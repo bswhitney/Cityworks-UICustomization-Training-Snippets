@@ -121,3 +121,21 @@ $(function () {
 
 To use this, you simply need to replace the values for `from`, `to`, and `grid`. A further improvement would be to turn the script into a callable function, so you could reorder columns as needed.
 
+---
+**Question:** Is there a way to add a button to the UI?
+
+**Answer:** Yes. The following is an example of adding a button to WOGeneral.xml, to the Map panel (Location).
+
+```XML
+<panel id="Map">
+    <row>
+        <html cssClass="formButton" tag="button" onclick="alert('Alert Message!')">
+            <text id="newButton">New Button</text>
+        </html>
+    </row>
+</panel>
+```
+
+In order to tie some functionality into this button, you would simply need to link in a JavaScript file with the functionality you want, and change out the onclick attribute to what you need it to be.
+
+---
