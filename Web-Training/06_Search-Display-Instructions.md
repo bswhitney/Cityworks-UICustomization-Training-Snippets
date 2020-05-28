@@ -1,5 +1,8 @@
 # Search Display Instructions
-In some cases, it might be beneficial to edit the search display fields used whenever you do a search. All search display fields are housed in a single file, **SearchDisplayFieldsBase.xml**. This is the only instance where youwould edit a base file. It is important to save a copy of the original file, in the event of any catastrophic errors.
+
+**NOTE:** As of the 15.5.4 version of the software, it appears you can use custom XML files to make edits, rather than editing the Base XML file.
+
+In some cases, it might be beneficial to edit the search display fields used whenever you do a search. All search display fields are housed in a single file, **SearchDisplayFieldsBase.xml**. This is the only instance where you would edit a base file. It is important to save a copy of the original file, in the event of any catastrophic errors.
 
 1. Navigate to the XML folder and find **SearchDisplayFieldsBase.xml**.
 2. Make a backup copy  in a safe location.
