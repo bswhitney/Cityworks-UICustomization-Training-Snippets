@@ -1,12 +1,6 @@
 ## Questions Pending Research
 * When flagging a field as required, is there a way to change the formatting of the field rather than just the label?
-* Is there a way to set map layers to selectable in the same method as section 6 of the UI manual?
-* Can you change the width of the columns on a search results page?
-* What would be the best way to modify the buttons for Office and Tablet on the login screen? Specifically the background color of the buttons (15.4) J.P. CenARWat, 2/6/20
-* Is there a way to hide certain columns in a table? For example, on a work order page, is there a way to hide AssetID and AssetUID from the associated assets table? E.B. MilwCty, 2/6/20
-* Can Cityworks be changed to check for required fields on save, rather than just on close? T.H, PascoCo, 4/9/20
 * Would you use CSS to change the blue Cityworks header to red (for example working in a dev environment rather than in production)?  T.H, PascoCo, 4/9/20
-* Can you change the search icon to be an actual button? T.H, PascoCo, 4/9/20
 
 ## Answered Questions
 **Question:** Is there a way to make a long data fields into shorter fields so you can fit another control onto the same row?
@@ -32,12 +26,25 @@ document.getElementById('ctl00_Main_cboWODesc').classList.add('normal');
 ---
 **Question:** Is there a way to make fields in the UI readonly?
 
-**Answer:** Yes. I was able to disable to Submit To field on a Work Order page using the following code:
+**Answer:** Yes. I have been able to accomplish this in two different ways, using the XML and using JavaScript injection. This is an example of the XML method (between control tags):
+
+```xml
+<control id="txtMapPage" disabled="true"/>
+<control id="cboWODesc" disabled="true"/>
+<control id="calActualFinishDate" disabled="true"/>
+<button id="btnChangeEntityType" disabled="true"/>
+<control id="chkIsReactive" disabled="true"/>
+<control id="txtInstructions" disabled="true"/>
+```
+
+I was able to disable to Submit To field on a Work Order page using the following JavaScript code:
 ```JavaScript
 $(function () {
     document.getElementById('ctl00_Main_cboSubmitTo').setAttribute('disabled', true);
 });
 ```
+
+See the [note about JavaScript Injection](https://github.com/bswhitney/Cityworks-UICustomization-Training-Snippets#note-on-javascript-injection-content-in-this-course) in Cityworks UI.
 
 ---
 **Question:** Is there a way to move the attachments section of the inspection details tab to the observations tab?
