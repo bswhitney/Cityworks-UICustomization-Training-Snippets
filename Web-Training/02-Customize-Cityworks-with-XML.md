@@ -32,6 +32,12 @@ To require a control that is not required by default, simply set the required at
 ```xml
 <control id="cboWorkCompletedBy" required="true"></control>
 ```
+### Disabling Fields
+By default, a number of fields may not be editable throughout Cityworks. These can be make editable, or others disabled, by setting the disabled attribute to `false`. This is to be put between `control` tags.
+
+```xml
+<control id="cboWODesc" disabled="true"></control>
+```
 ## Changing Labels and Titles
 
 Your organization may have different language for the various data fields in a work activity. For example, in the UI, the Work Order ID is labeled as "Number". The following code changes the label from "Number" to "ID". Put the code between the `layout` tags.
