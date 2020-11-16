@@ -159,3 +159,5 @@ The first file to edit is located at **.../Website/Assets/css/menu.css**. After 
 ```
 
 This changes the color of the banner to red. Next, I came up with an image to replace the Cityworks Logo. The original image, located at **.../WebSite/Assets/logos/logo-white.png**, was renamed, and named the new image **logo-white.png**. This resulted in the following:
+
+![Red Banner](https://github.com/bswhitney/Cityworks-UICustomization-Training-Snippets/blob/master/Cityworks-Conference-2019/MDExample.png)
