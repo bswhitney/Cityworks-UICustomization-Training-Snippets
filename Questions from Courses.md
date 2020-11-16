@@ -146,3 +146,16 @@ To use this, you simply need to replace the values for `from`, `to`, and `grid`.
 In order to tie some functionality into this button, you would simply need to link in a JavaScript file with the functionality you want, and change out the onclick attribute to what you need it to be.
 
 ---
+**Question:** Is there a way to change the banner at the top of the page to make it easier to distinguish between a development and production site (for example, changing the banner to red and change the Cityworks Logo to something else?
+
+**Answer:** Yes. The changes involved do not work with XML but with altering Cityworks site files. Because of this, if you are to make any changes, it is important to make a backup copy of the original files being edited.
+
+The first file to edit is located at **.../Website/Assets/css/menu.css**. After making a backup copy of this CSS file, add the following code to the bottom of the file:
+
+```CSS
+.menu-bar ul,.menu-bar ul a, #cwMenuTopContent {
+    background:red;
+}
+```
+
+This changes the color of the banner to red. Next, I came up with an image to replace the Cityworks Logo. The original image, located at **.../WebSite/Assets/logos/logo-white.png**, was renamed, and named the new image **logo-white.png**. This resulted in the following:
