@@ -1,6 +1,6 @@
 ## Questions Pending Research
 * When flagging a field as required, is there a way to change the formatting of the field rather than just the label?
-* Would you use CSS to change the blue Cityworks header to red (for example working in a dev environment rather than in production)?  T.H, PascoCo, 4/9/20
+* Is there a way to edit the items in a saved search directly from the inbox? This would make data entry similar to Excel. E.Maclin JEA 9/22/2021 (Ask A.Freeman)
 
 ## Answered Questions
 **Question:** Is there a way to make a long data fields into shorter fields so you can fit another control onto the same row?
